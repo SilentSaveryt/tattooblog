@@ -1,7 +1,12 @@
 import ArticleCard from "@/components/ArticleCard";
-import { articles } from "@/data/articles";
+import { supabase } from "@/lib/supabase";
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  const { data: articles } = await supabase
+    .from("articles")
+    .select("*")
+    .order("created_at", { ascending: false });
+
   return (
     <main className="max-w-6xl mx-auto px-6 py-12">
       <h1 className="text-5xl font-bold mb-4">
@@ -14,7 +19,7 @@ export default function BlogPage() {
       </p>
 
       <div className="grid md:grid-cols-3 gap-6">
-        {articles.map((article) => (
+        {articles?.map((article) => (
           <ArticleCard
             key={article.slug}
             title={article.title}
