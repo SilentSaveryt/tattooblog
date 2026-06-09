@@ -248,69 +248,7 @@ export const articles = [
         heading: "Final Thoughts",
         content:
           "Investing time into choosing the right artist is one of the smartest decisions you can make before getting tattooed.",
-      },
-      {
-  featured: false,
-
-  slug: "tattoo-aftercare-timeline-what-to-expect-day-by-day",
-  category: "aftercare",
-
-  title: "Tattoo Aftercare Timeline: What to Expect Day by Day",
-
-  seoTitle:
-    "Tattoo Aftercare Timeline: What to Expect Day by Day",
-
-  seoDescription:
-    "Learn everything you need to know about the healing process, recovery stages, and daily aftercare tasks for a new tattoo.",
-
-  keywords: [
-    "tattoo aftercare",
-    "tattoo healing timeline",
-    "tattoo healing stages",
-    "new tattoo care",
-    "tattoo aftercare guide"
-  ],
-
-  author: "Ink Guide Team",
-  publishedDate: "6/9/2026",
-  readingTime: "5 min read",
-
-  description:
-    "Learn everything you need to know about the healing process, recovery stages, and daily aftercare tasks for a new tattoo.",
-
-  image: "/images/article-image.jpg",
-
-  sections: [
-    {
-      heading: "Introduction: Your First Week (Most Important)",
-      image: "/images/article-image.jpg",
-      content:
-        "One of the most common questions tattoo artists hear is: How long will my tattoo take to heal? The truth is that every tattoo heals a little differently, but most follow the same general timeline. Understanding what is normal during the healing process can help you avoid unnecessary stress and prevent mistakes that could damage your new tattoo.\n\nDay 1: Fresh Tattoo Care\n\nImmediately after your appointment, your tattoo is essentially an open wound. It is normal to experience redness, swelling, tenderness, and a small amount of plasma or ink leakage. Follow your artist's instructions carefully regarding bandages and washing.\n\nWhen you remove the bandage, gently wash the tattoo with lukewarm water and fragrance-free soap. Pat it dry with a clean paper towel and apply a thin layer of the recommended aftercare product.\n\nDays 2-3: Redness and Sensitivity\n\nDuring the first few days, your tattoo may still feel sore and warm to the touch. This is a normal part of the body's healing response. Continue washing the tattoo gently and applying a light moisturizer as directed.\n\nAvoid soaking the tattoo, exposing it to direct sunlight, or wearing tight clothing that may rub against the area.\n\nDays 4-7: Peeling Begins\n\nMany people become concerned when their tattoo starts peeling. In reality, peeling is one of the most normal stages of healing. The tattoo may look dull or flaky as old skin sheds away.\n\nDo not pick, scratch, or peel the skin manually. Allow the flakes to fall away naturally. Removing them prematurely can pull ink from the skin and affect the final appearance of the tattoo."
-    },
-    {
-      heading: "After Your First Week & Why Tattoo Aftercare Matters",
-      image: "/images/article-image.jpg",
-      content:
-        "Week 2: Itching Stage\n\nThe second week is often the most frustrating because the tattoo becomes itchy. Itching is usually a sign that the skin is healing.\n\nResist the urge to scratch. Instead, apply a small amount of approved moisturizer and gently tap the area if necessary. Excessive scratching can damage the tattoo and increase the risk of infection.\n\nWeeks 3-4: Surface Healing\n\nBy this stage, most tattoos appear largely healed on the surface. The peeling and itching should be mostly gone, and the tattoo should look much clearer.\n\nMany clients assume the healing process is complete at this point, but deeper layers of skin are still recovering.\n\nWeeks 4-8: Complete Healing\n\nWhile the tattoo may appear finished after a few weeks, complete healing can take six to eight weeks depending on the size, placement, and individual healing factors.\n\nContinue protecting the tattoo from excessive sun exposure and keep the skin moisturized. Once fully healed, applying sunscreen regularly can help preserve the tattoo's appearance for years."
-    },
-    {
-      heading: "Tattoo Aftercare Tips & Recommendations",
-      image: "/images/article-image.jpg",
-      content:
-        "The biggest mistakes tattoo artists see clients make include picking at peeling skin, over-moisturizing the tattoo, swimming too soon, excessive sun exposure, ignoring signs of infection, and wearing clothing that constantly rubs against the tattoo.\n\nAvoiding these mistakes can significantly improve the final result and help your tattoo heal properly."
-    },
-    {
-      heading: "When to Call a Professional",
-      image: "/images/article-image.jpg",
-      content:
-        "Some redness and discomfort are normal. However, you should contact your tattoo artist or healthcare provider if you notice severe swelling, excessive pain, yellow or green discharge, spreading redness, or fever-like symptoms.\n\nThese may be signs of infection and should not be ignored."
-    },
-    {
-      heading: "Conclusion",
-      image: "/images/article-image.jpg",
-      content:
-        "Healing a tattoo takes patience. Most problems occur when people try to rush the process or ignore aftercare instructions. If you keep the tattoo clean, moisturized, and protected, your body will do most of the work. Following a proper aftercare routine is one of the easiest ways to ensure your tattoo looks great for years to come."
-    }
-  ]
-}      
-  
+      },      
+    ],
+  },
+];
