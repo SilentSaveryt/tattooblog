@@ -90,7 +90,17 @@ export default async function BlogPost({
               {section.heading}
             </h2>
 
-            <p className="text-lg leading-8 text-gray-700">
+            {section.image && (
+              <Image
+                src={section.image}
+                alt={section.heading}
+                width={1000}
+                height={600}
+                className="w-full rounded-xl my-6"
+              />
+            )}
+
+            <p className="text-lg leading-8 text-gray-700 whitespace-pre-line">
               {section.content}
             </p>
           </section>
