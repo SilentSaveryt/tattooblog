@@ -84,28 +84,28 @@ export default async function BlogPost({
       </p>
 
       <article className="space-y-12 mb-16">
-        {article.sections.map((section, index) => (
-          <section key={index}>
-            <h2 className="text-3xl font-bold mb-4">
-              {section.heading}
-            </h2>
+  {article.sections.map((section, index) => (
+    <section key={index}>
+      <h2 className="text-3xl font-bold mb-4">
+        {section.heading}
+      </h2>
 
-            (section as any).image && (
-              <Image
-                src={(section as any).image}
-                alt={section.heading}
-                width={1000}
-                height={600}
-                className="w-full rounded-xl my-6"
-              />
-            )}
+      {(section as any).image && (
+        <Image
+          src={(section as any).image}
+          alt={section.heading}
+          width={1000}
+          height={600}
+          className="w-full rounded-xl my-6"
+        />
+      )}
 
-            <p className="text-lg leading-8 text-gray-700 whitespace-pre-line">
-              {section.content}
-            </p>
-          </section>
-        ))}
-      </article>
+      <p className="text-lg leading-8 text-gray-700 whitespace-pre-line">
+        {section.content}
+      </p>
+    </section>
+  ))}
+</article>
 
       {relatedArticles.length > 0 && (
         <section>
