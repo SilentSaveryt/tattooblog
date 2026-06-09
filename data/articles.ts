@@ -191,3 +191,60 @@ export const articles = [
     ],
   },
 ];
+{
+  featured: false,
+
+  slug: "what-type-of-tattoo-artist-you-are-why-it-matters",
+  category: "Styles",
+
+  title: "What Type Of tattoo artist you are & why it matters...",
+
+  seoTitle:
+    "What Type Of tattoo artist you are & why it matters...",
+
+  seoDescription:
+    "Learn everything you need to know about what type of tattoo artist you are.",
+
+  keywords: [],
+
+  author: "Ink Guide Team",
+  publishedDate: "6/8/2026",
+  readingTime: "5 min read",
+
+  description:
+    "Learn everything you need to know about what type of tattoo artist you are.",
+
+  image: "/images/best-tattoo.jpg",
+
+  sections: [
+    {
+      heading: "Introduction ",
+      content:
+        "Brandon here from the Ink Guide Blog team! If there's one thing you see alot as you become a tattoo artist, it's that every tattoo artist develop their own style and approach. I consider myself a versatile artist with a strong focus on clean linework, solid fundamentals, and helping clients choose designs they'll still love years from now. While I enjoy creating bold custom pieces, I also spend a lot of time educating people about tattoos, aftercare, and making smart decisions before they ever sit in the chair."
+    },
+    {
+      heading: "Why what type of tattoo artist you are Matters",
+      content:
+        "The type of tattoo artist you choose can have a huge impact on your final tattoo. Every artist has strengths, whether it's realism, traditional, black and grey, fine line, Japanese, or illustrative work. Understanding what kind of artist you are, and what kind of artist you're looking for, helps ensure that the design, placement, and execution all match your expectations. A great tattoo isn't just about drawing ability; it's about matching the right artist to the right project."
+    },
+    {
+      heading: "Tips and Recommendations for picking an artist",
+      content:
+        "- Research artists thoroughly before booking. Look through healed tattoos, not just fresh ones. Pay attention to consistency, line quality, shading, and how well the artist works within their specialty.
+
+- Don't choose an artist based solely on price. Instead, focus on finding someone whose portfolio matches the tattoo you want.
+
+- Communication is also key—be clear about your ideas, remain open to professional feedback, and trust the artist's experience when it comes to design and placement."
+    },
+    {
+      heading: "Common First-tattoo Mistakes",
+      content:
+        "One of the most common mistakes people make is choosing an artist simply because they're nearby or inexpensive. Another mistake is asking an artist to create work outside of their specialty. For example, a great traditional artist may not be the best choice for a highly detailed portrait. People also tend to underestimate the importance of aftercare and proper planning. Rushing into a tattoo without researching the artist, design, or placement often leads to disappointment later."
+    },
+    {
+      heading: "Conclusion",
+      content:
+        "At the end of the day, the best tattoo artists combine technical skill, creativity, professionalism, and honesty. I believe great tattoos start long before the machine turns on—they start with education, preparation, and realistic expectations. Whether you're getting your first tattoo or adding to an existing collection, taking the time to find the right artist and make informed decisions will always lead to better results."
+    }
+  ]
+},
