@@ -90,9 +90,9 @@ export default async function BlogPost({
               {section.heading}
             </h2>
 
-            {section.image && (
+            (section as any).image && (
               <Image
-                src={section.image}
+                src={(section as any).image}
                 alt={section.heading}
                 width={1000}
                 height={600}
