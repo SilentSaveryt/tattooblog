@@ -221,7 +221,7 @@ export const articles = [
     description:
       "Choosing the right tattoo artist is one of the most important decisions you'll make before getting tattooed.",
 
-    image: "/images/best-tattoo.jpg",
+    image: "/images/lion-pic.jpg",
 
     sections: [
       {
